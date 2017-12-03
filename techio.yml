@@ -6,6 +6,8 @@ plan:
   statement: page/flyweight.md
 - title: Exemple de FlyWeight
   statement: page/exemple.md
+- title: Conclusion
+  statement: page/conclusion.md
 - title: Quiz
   statement: page/quizz.md
 
