@@ -158,7 +158,7 @@ public class Main{
 
 	}
 	//Getter d'une couleur aléatoire
-	private String getCouleurAleatoire() {
+	private  static String getCouleurAleatoire() {
 		return couleurs[(int)(Math.random() * couleurs.length)];
 	}
 
