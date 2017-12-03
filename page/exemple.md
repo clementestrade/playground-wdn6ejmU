@@ -75,6 +75,7 @@ public class FormeFactory {
   ```
   
    ```java Runnable 
+   // { autofold
 public class Main {
 	
 	//Tableau des couleurs possibles pour le cercle
@@ -112,6 +113,7 @@ public class Main {
 		return (int) ((Math.random() * 99)+1);
 	}
 }
+// }
  ```
 
 
