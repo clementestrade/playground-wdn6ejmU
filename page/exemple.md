@@ -141,6 +141,7 @@ class FormeFactory {
 
 public class Main{
 //Tableau des couleurs possibles pour le cercle
+    
     String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
 	
 
