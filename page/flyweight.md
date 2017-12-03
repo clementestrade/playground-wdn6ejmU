@@ -6,4 +6,4 @@ Souvent lors de l’utilisation d’un programme on se retrouve à instancier de
 
 En effet, ce pattern, à l’aide d’une factory si deux objets différents ont un paramètre en commun (exemple deux cercle d’une même couleur mais d’une taille différente) on va utiliser ce paramètre déjà construit dans le premier afin de réaliser le deuxième ainsi la place en mémoire sera celle d'un seul cercle pour en créer deux, pour cela on va utiliser les setters de la classe cercle en résumé on va utiliser un type objet pour représenter une gamme de petits objets tous différents.
 
-![flyweight](/images/mario.jpg)
+![flyweight](/images/mario.png)
