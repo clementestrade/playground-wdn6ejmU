@@ -75,7 +75,7 @@ public class FormeFactory {
   ```
   
    ```java Runnable 
-public class FlyweightPattern {
+public class Main {
 	
 	//Tableau des couleurs possibles pour le cercle
 	private static final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
