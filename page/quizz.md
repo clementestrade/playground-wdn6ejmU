@@ -9,9 +9,9 @@
 -[ ]Quand on a un gros objet
 
 ?[Combien d'objet instancions nous dans l'exemple ci-dessus ?]
--[x]20
+-[ ]20
 -[ ]10
--[ ]5
+-[x]5
 
 ?[Dans quoi stock-on les objets afin de savoir s'ils existent déjà ?]
 -[ ]une liste
