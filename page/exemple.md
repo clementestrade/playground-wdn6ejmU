@@ -87,7 +87,7 @@ public class Main{
 
 		//Création de 20 Cercles
 		for (int i = 0; i < 20; ++i) {
-			Cercle cercle = (Cercle)FormeFactory.getCercle(getCouleurAleatoire());
+			Cercle cercle = ( Cercle ) FormeFactory.getCercle(getCouleurAleatoire());
 			cercle.setX(getXAleatoire());
 			cercle.setY(getYAleatoire());
 			cercle.setRayon(getRayonAleatoire());
