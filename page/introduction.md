@@ -9,9 +9,5 @@ En 1995 le Gang of four à présenter les 23 design pattern qui font aujourd’h
 Il existe 3 types différents de design Pattern :                                                                                            
   •	Les patterns de créations                                                                                                                                                             
   •	Les patterns de structuration                                                                                                                                            
-  •	Les patterns comportementaux                                                                                                                                                                                                                                                                                                                                                                              
+  •	Les patterns comportementaux                                                                                                                                                                                                                                                                                                                                                                                                                                
 Dans notre cas le design pattern FlyWeight appartient au pattern de structuration
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
