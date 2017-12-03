@@ -79,7 +79,7 @@ public class FormeFactory {
 Maintenant on implémente le main pour utiliser notre décorateur
 
 ```java runnable
-public class main{
+public class Main{
 //Tableau des couleurs possibles pour le cercle
 	private static final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
 
