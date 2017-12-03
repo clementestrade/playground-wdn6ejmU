@@ -137,7 +137,7 @@ class FormeFactory {
       return cercle;
    }
    //}
-
+import java.util.HashMap;
 public class Main{
 //Tableau des couleurs possibles pour le cercle
 	private static final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
