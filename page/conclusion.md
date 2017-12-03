@@ -1,0 +1,1 @@
+L’utilisation principale du design pattern FlyWeight est d’optimiser la place mémoire occupé par les objets afin d’accélérer l’exécution du programme plusieurs objet sont instancier grâce à la même méthode est ainsi la place en mémoire est réduite par rapport a une implémentation plus classique.
