@@ -86,7 +86,7 @@ public class Main{
 
 	public static void main(String[] args) {
 	
-	Cercle cercle = new Cercle('rouge');
+	Cercle cercle = new Cercle("rouge");
 	cercle.dessiner();
 
 	/*	//Création de 20 Cercles
