@@ -7,7 +7,8 @@ Un design pattern est un ensemble de bonne pratique ayant pour but de rendre le 
 La première apparition publique des design pattern vient d’un livre publié en 1977 par l’ingénieur Christopher Alexander nommé " A Pattern Language ».    
 
 En 1995 le Gang of four à présenter les 23 design pattern qui font aujourd’hui office de référence dans le domaine de l’informatique.
-Il existe 3 types différents de design Pattern :                                                                                            
+Il existe 3 types différents de design Pattern :   
+
     •Les patterns de créations        
     
     •Les patterns de structuration      
