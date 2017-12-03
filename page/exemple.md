@@ -146,7 +146,7 @@ public class Main{
 	public static void main(String[] args) {
 	
 
-	/*	//Création de 20 Cercles
+		//Création de 20 Cercles
 		for (int i = 0; i < 20; ++i) {
 			Cercle cercle = ( Cercle ) FormeFactory.getCercle(getCouleurAleatoire());
 			cercle.setX(getXAleatoire());
@@ -173,7 +173,7 @@ public class Main{
 
 	//Getter d'un nombre aléatoire pour le rayon
 	private static int getRayonAleatoire() {
-		return (int)((Math.random() * 99)+1);*/
+		return (int)((Math.random() * 99)+1);
 	}
     
 }
