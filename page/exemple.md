@@ -1,4 +1,4 @@
-#diagramme de classe UML
+# Diagramme de classe UML
 
 Voici le diagramme de classe que nous allons implémenter :
 
