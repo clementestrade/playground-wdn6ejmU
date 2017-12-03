@@ -163,17 +163,17 @@ public class Main{
 	}
 
 	//Getter d'un nombre aléatoire pour X
-	private int getXAleatoire() {
+	private static int getXAleatoire() {
 		return (int)(Math.random() * 100);
 	}
 
 	//Getter d'un nombre aléatoire pour Y
-	private int getYAleatoire() {
+	private static int getYAleatoire() {
 		return (int)(Math.random() * 100);
 	}
 
 	//Getter d'un nombre aléatoire pour le rayon
-	private int getRayonAleatoire() {
+	private static int getRayonAleatoire() {
 		return (int)((Math.random() * 99)+1);
 	}
     }
