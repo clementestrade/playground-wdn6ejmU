@@ -1,3 +1,10 @@
+#diagramme de classe UML
+
+Voici le diagramme de classe que nous allons implémenter :
+
+! [UML] (UML.PNG)
+
+
 # Première étape.
 
 Premièrement on crée la classe abstraite forme.
