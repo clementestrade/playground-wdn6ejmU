@@ -81,6 +81,7 @@ Maintenant on implémente le main pour utiliser notre décorateur
 ```java runnable
 
 // { autofold
+import java.util.HashMap;
 interface Forme {
 	   void dessiner();
 }
@@ -137,7 +138,7 @@ class FormeFactory {
       return cercle;
    }
    //}
-import java.util.HashMap;
+
 public class Main{
 //Tableau des couleurs possibles pour le cercle
 	private static final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
