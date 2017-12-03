@@ -116,8 +116,8 @@ public class Main{
 
 	//Getter d'un nombre aléatoire pour le rayon
 	private static int getRayonAleatoire() {
-		return (int)((Math.random() * 99)+1);
-	}*/
+		return (int)((Math.random() * 99)+1);*/
+	}
     
 }
 ```
