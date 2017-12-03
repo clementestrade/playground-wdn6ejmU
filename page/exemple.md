@@ -87,7 +87,7 @@ public class Main{
 
 		//Création de 20 Cercles
 		for (int i = 0; i < 20; ++i) {
-			Cercle cercle = (Cercle) FormeFactory.getCercle(getCouleurAleatoire());
+			Cercle cercle = (Cercle)FormeFactory.getCercle(getCouleurAleatoire());
 			cercle.setX(getXAleatoire());
 			cercle.setY(getYAleatoire());
 			cercle.setRayon(getRayonAleatoire());
@@ -97,22 +97,22 @@ public class Main{
 	}
 	//Getter d'une couleur aléatoire
 	private static String getCouleurAleatoire() {
-		return couleurs[(int) (Math.random() * couleurs.length)];
+		return couleurs[(int)(Math.random() * couleurs.length)];
 	}
 
 	//Getter d'un nombre aléatoire pour X
 	private static int getXAleatoire() {
-		return (int) (Math.random() * 100);
+		return (int)(Math.random() * 100);
 	}
 
 	//Getter d'un nombre aléatoire pour Y
 	private static int getYAleatoire() {
-		return (int) (Math.random() * 100);
+		return (int)(Math.random() * 100);
 	}
 
 	//Getter d'un nombre aléatoire pour le rayon
 	private static int getRayonAleatoire() {
-		return (int) ((Math.random() * 99)+1);
+		return (int)((Math.random() * 99)+1);
 	}
     
 }
