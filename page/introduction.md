@@ -10,8 +10,6 @@ La première apparition publique des design pattern vient d’un livre publié e
 
 En 1995 le Gang of four a présenter les 23 design pattern qui font aujourd’hui office de référence dans le domaine de l’informatique.
 
-![gof](/images/flyweight.jpg)
-
 Il existe 3 types différents de design Pattern :   
 
     •Les patterns de créations        
