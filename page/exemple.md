@@ -9,7 +9,7 @@ On peut tout d'abord imaginer un cercle
 on crée tout d'abord une forme abstraite :
 
 ```java Runnable
-// { autofold
+// {autofold
 public interface Forme {
 	   void dessiner();
 }
@@ -17,6 +17,7 @@ public interface Forme {
 ```
 
 ```java Runnable   
+// {autofold
 public class Cercle implements Forme {
 	   private String couleur;
 	   private int x;
@@ -55,7 +56,7 @@ public class Cercle implements Forme {
   
   
   ```java Runnable 
-  // { autofold
+  // {autofold
   import java.util.HashMap;
 
 public class FormeFactory {
@@ -80,7 +81,7 @@ public class FormeFactory {
   ```
   
   ```java Runnable 
-   // { autofold
+   // {autofold
 public class Main {
 	
 	//Tableau des couleurs possibles pour le cercle
