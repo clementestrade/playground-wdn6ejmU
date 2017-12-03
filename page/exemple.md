@@ -7,7 +7,6 @@ interface Forme {
 	   void dessiner();
 }
 ```
-vdszv
 # Deuxieme étape 
 
 Maintenant on crée la classe Corsa et la classe C2 qui correspondent aux classes Composant Concret. Elles héritent de la classe voiture. Dans le constructeur de ces classes on définit leurs attributs à l’aide des mutateurs de leurs classe mère.
