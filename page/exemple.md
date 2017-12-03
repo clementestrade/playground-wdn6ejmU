@@ -80,6 +80,7 @@ Maintenant on implémente le main pour utiliser notre décorateur
 ```java runnable
 
 
+
 // { autofold
 import java.util.HashMap;
 interface Forme {
@@ -156,6 +157,8 @@ public class Main
 		}
      }
 }
+
+
 
 
 
