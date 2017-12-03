@@ -8,10 +8,12 @@ On peut tout d'abord imaginer un cercle
 
 on crée tout d'abord une forme abstraite :
 
-```java Runnable    
+```java Runnable
+// { autofold
 public interface Forme {
 	   void dessiner();
 }
+//}
 ```
 
 ```java Runnable   
@@ -48,10 +50,12 @@ public class Cercle implements Forme {
 	      System.out.println("Cercle: Dessiner() [Couleur : " + this.couleur + ", x : " + this.x + ", y :" + this.y + ", Rayon :" + this.rayon);
 	   }
 	}
+	//}
   ```
   
   
   ```java Runnable 
+  // { autofold
   import java.util.HashMap;
 
 public class FormeFactory {
@@ -72,9 +76,10 @@ public class FormeFactory {
       return cercle;
    }
 }
+//}
   ```
   
-   ```java Runnable 
+  ```java Runnable 
    // { autofold
 public class Main {
 	
@@ -113,8 +118,7 @@ public class Main {
 		return (int) ((Math.random() * 99)+1);
 	}
 }
-// }
- ```
-
+//}
+```
 
 
