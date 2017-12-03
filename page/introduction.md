@@ -6,11 +6,11 @@ Voici une documentation sur le design pattern FlyWeight
 Un design pattern est un ensemble de bonnes pratiques ayant pour but de rendre le code plus propre, optimisé, robuste, maintenable et évolutif afin de répondre au problèmes récurrents rencontré par les développeurs.
 La première apparition publique des design pattern vient d’un livre publié en 1977 par l’ingénieur Christopher Alexander nommé « A Pattern Language ».    
 
-![livreAPaternLanguage](/images/livreGof.jpg)
+![livreAPaternLanguage](/images/livrePattern.jpg)
 
 En 1995 le Gang of four a présenter les 23 design pattern qui font aujourd’hui office de référence dans le domaine de l’informatique.
 
-! [gof](/images/livreGof.jpg)
+![gof](/images/livreGof.jpg)
 
 Il existe 3 types différents de design Pattern :   
 
