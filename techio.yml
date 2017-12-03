@@ -1,4 +1,4 @@
 title: Simple Java Template
 plan:
-- title: Java Snippet
-  statement: statement.md
+- title: Introduction
+  statement: page/introduction.md
