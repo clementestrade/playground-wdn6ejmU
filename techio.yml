@@ -1,7 +1,6 @@
 title: Simple Java Template
 plan:
-- title: Introduction
-  statement: page/introduction.md
+
 - title: Le design pattern FlyWeight
   statement: page/flyweight.md
 - title: Exemple de FlyWeight
