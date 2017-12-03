@@ -50,7 +50,7 @@ class Cercle implements Forme {
 
 # Troisième étape 
 
-On crée ensuite la class FormeFactory qui permet de stocker dans une map les cercles crée et de récuperer de cette même map un cercle déjà existant :
+On crée ensuite la class FormeFactory qui permet de stocker dans une map les cercles crées et de récuperer de cette même map un cercle déjà existant :
 
 ```java Runnable
 import java.util.HashMap;
@@ -78,7 +78,7 @@ class FormeFactory {
 
 # Quatrième étape 
 
-On implémente ensuite le main afin de créer 20 cercles de couleurs et dimension aléatoire :
+On implémente ensuite le main afin de créer 20 cercles de couleurs et dimensions aléatoires :
 
 ```java runnable
 
