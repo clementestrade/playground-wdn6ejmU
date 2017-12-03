@@ -114,7 +114,7 @@ public class main{
 	private static int getRayonAleatoire() {
 		return (int) ((Math.random() * 99)+1);
 	}
-     }
+    
 }
 ```
 
