@@ -141,7 +141,7 @@ class FormeFactory {
 
 public class Main{
 //Tableau des couleurs possibles pour le cercle
-	private static final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
+	private final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
 	
 
 	public static void main(String[] args) {
@@ -158,22 +158,22 @@ public class Main{
 
 	}
 	//Getter d'une couleur aléatoire
-	private static String getCouleurAleatoire() {
+	private String getCouleurAleatoire() {
 		return couleurs[(int)(Math.random() * couleurs.length)];
 	}
 
 	//Getter d'un nombre aléatoire pour X
-	private static int getXAleatoire() {
+	private int getXAleatoire() {
 		return (int)(Math.random() * 100);
 	}
 
 	//Getter d'un nombre aléatoire pour Y
-	private static int getYAleatoire() {
+	private int getYAleatoire() {
 		return (int)(Math.random() * 100);
 	}
 
 	//Getter d'un nombre aléatoire pour le rayon
-	private static int getRayonAleatoire() {
+	private int getRayonAleatoire() {
 		return (int)((Math.random() * 99)+1);
 	}
     }
