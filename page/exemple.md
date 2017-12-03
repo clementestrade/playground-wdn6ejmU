@@ -82,12 +82,13 @@ Maintenant on implémente le main pour utiliser notre décorateur
 public class Main{
 //Tableau des couleurs possibles pour le cercle
 	private static final String couleurs[] = { "Rouge", "Vert", "Bleu", "Blanc", "Noir" };
+	Cercle cercle;
 
 	public static void main(String[] args) {
 
 		//Création de 20 Cercles
 		for (int i = 0; i < 20; ++i) {
-			Cercle cercle = ( Cercle ) FormeFactory.getCercle(getCouleurAleatoire());
+			cercle = ( Cercle ) FormeFactory.getCercle(getCouleurAleatoire());
 			cercle.setX(getXAleatoire());
 			cercle.setY(getYAleatoire());
 			cercle.setRayon(getRayonAleatoire());
