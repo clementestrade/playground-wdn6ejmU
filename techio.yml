@@ -4,3 +4,6 @@ plan:
   statement: page/introduction.md
 - title: Le design pattern FlyWeight
   statement: page/flyweight.md
+- title: Exemple de FlyWeight
+  statement: page/exemple.md
+
