@@ -1,6 +1,6 @@
 # Première étape.
 
-Premièrement on crée la classe abstraite qui regroupe les méthodes et les attributs communs. Ce sont ces méthodes que l'on utilisera dans les autres classes
+Premièrement on crée la classe abstraite forme.
 
 ```java Runnable
 interface Forme {
@@ -9,7 +9,8 @@ interface Forme {
 ```
 # Deuxieme étape 
 
-Maintenant on crée la classe Corsa et la classe C2 qui correspondent aux classes Composant Concret. Elles héritent de la classe voiture. Dans le constructeur de ces classes on définit leurs attributs à l’aide des mutateurs de leurs classe mère.
+On crée ensuite la classe cercle où on définit les paramètres ansi que les setters :
+
 ```java Runnable    
 class Cercle implements Forme {
 	   private String couleur;
@@ -49,7 +50,8 @@ class Cercle implements Forme {
 
 # Troisième étape 
 
-A présent, on crée le Décorateur. Celui-ci possède une voiture en attribut et on choisit les méthodes que l'on a redefinir. Ici, ce sera les méthodes : getLibelle(), getPrix(), getPoids().
+On crée ensuite la class FormeFactory qui permet de stocker dans une map les cercles crée et de récuperer de cette même map un cercle déjà existant :
+
 ```java Runnable
 import java.util.HashMap;
 
@@ -74,9 +76,10 @@ class FormeFactory {
 
 ```
 
-# Cinquième étape 
+# Quatrième étape 
 
-Maintenant on implémente le main pour utiliser notre décorateur
+On implémente ensuite le main afin de créer 20 cercles de couleurs et dimension aléatoire :
+
 ```java runnable
 
 
