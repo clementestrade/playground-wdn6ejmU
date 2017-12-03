@@ -2,7 +2,7 @@
 
 Voici le diagramme de classe que nous allons implémenter :
 
-![UML](/UML.PNG)
+![UML](/images/UML.PNG)
 
 
 # Première étape.
